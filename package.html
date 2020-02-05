@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta name="description" content="lorem" >
+</head>
+
+<style>
+.package{
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    padding: 100px;
+}
+@media(max-width: 720 || min-width :24){
+    p{font-size: 24px;}
+}
+</style>
+<body>
+
+   
+    <Table border="0" align="center"><tr>
+        <tr height="400px"></tr>
+        <td>
+            <div class="package" id="pkg1"></div>
+            <button class="btnOrderNow" onclick="orderNow()" >Order Now1</button>
+        </td>
+        <td>
+            <div class="package" id="pkg2"></div>
+            <button class="btnOrderNow" onclick="orderNow()">Order Now2 </button>
+        </td>
+        <td>
+            <div class="package" id="pkg3"></div>
+            <button class="btnOrderNow" onclick="orderNow()">Order Now3 </button>
+        </td>
+    </tr></Table>
+
+
+    <!-- <button onclick="orderNow()" >Order Now1</button>
+    <button onclick="orderNow()">Order Now2 </button>
+    <button onclick="orderNow()">Order Now3</button> -->
+</body>
+
+
+
+<script>
+    function orderNow(){
+        document.writeln(2+3);
+    }
+    
+</script>
+</html>

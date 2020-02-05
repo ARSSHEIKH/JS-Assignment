@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO</title>
+</head>
+<script>
+var course = [];
+var course1 = prompt("Enter Course1 name: ");
+var course2 = prompt("Enter Course2 name: ");
+var course3 = prompt("Enter Course3 name: ");
+var course4 = prompt("Enter Course4 name: ");
+var course5 = prompt("Enter Course5 name: ");
+
+course.push(course1);
+course.push(course2);
+course.push(course3);
+course.push(course4);
+course.push(course5);
+
+alert(course);
+
+var course1Value = 0, course2Value = 1, course3Value = 2, course4Value = 3, course5Value = 4;
+
+var course1ValueEdit = parseInt(prompt(course1, course1Value));
+var course2ValueEdit = parseInt(prompt(course2, course2Value));
+var course3ValueEdit = parseInt(prompt(course3, course3Value));
+var course4ValueEdit = parseInt(prompt(course4, course4Value));
+var course5ValueEdit = parseInt(prompt(course5, course5Value));
+
+course.splice(course1Value, course1ValueEdit);
+course.splice(course2Value, course2ValueEdit);
+course.splice(course3Value, course3ValueEdit);
+course.splice(course4Value, course4ValueEdit);
+course.splice(course5Value, course5ValueEdit);
+alert(course);
+
+</script>
+<body>
+    
+</body>
+</html>
